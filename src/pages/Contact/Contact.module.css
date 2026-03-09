@@ -1,0 +1,65 @@
+.page {
+  padding: 4rem 2rem;
+  min-height: 60vh;
+}
+
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.03em;
+  color: var(--color-foreground);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.subTitle {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-foreground);
+}
+
+.grid p {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #555;
+}
+
+.emailBlock {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.email {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-foreground);
+  border-bottom: 2px solid var(--color-foreground);
+  padding-bottom: 2px;
+  transition: opacity 0.2s;
+}
+
+.email:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

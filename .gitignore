@@ -47,3 +47,6 @@ coverage/
 .claude/mcp_config_merged.json
 .claude/settings.local.json
 .claude/mcp_playwright.json
+
+# WordPress static export (assets copied to src/assets/)
+simply-static-1-1773091325/

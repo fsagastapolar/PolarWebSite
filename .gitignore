@@ -50,3 +50,9 @@ coverage/
 
 # WordPress static export (assets copied to src/assets/)
 simply-static-1-1773091325/
+
+#Claude
+.claude/
+
+#Thoughts
+.thoughts/
